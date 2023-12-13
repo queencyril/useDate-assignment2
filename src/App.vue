@@ -1,8 +1,5 @@
 <template>
   <div>
-    <!-- <div v-for="post in posts" :key="post.id" style="{ border: '1px dashed', marginBottom: '5px' }">
-      {{ post.title }}
-    </div> -->
     {{ value }}
     <br />
     Date: {{ date.toString() }}
